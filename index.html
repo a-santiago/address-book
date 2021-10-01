@@ -28,7 +28,7 @@
     <div class="container mt-5">
         <h2 class="title text-light">Rolodex</h2>
         <div class="shadow-lg border border-2 bg-light bg-opacity-50 rounded-3">
-            <form netlify name="rolodexForm" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form netlify name="rolodexForm" data-netlify-recaptcha="true">
                 <div class="row">
                     <!-- Image Col -->
                     <div class="col-12 col-md-4 py-md-3 px-md-4 shad">
@@ -142,8 +142,8 @@
                             <div class="col-12 col-md-12">
                                 <input type="checkbox" name="family">
                                 <label class="mt-3">Family</label>
-                                <button type="submit" class="btn btn-primary mt-2 mb-2 float-end"
-                                    data-netlify-recaptcha="true">Save</button>
+                                <div data-netlify-recaptcha="true"></div>
+                                <button type="submit" class="btn btn-primary mt-2 mb-2 float-end">Save</button>
                             </div>
                         </div>
                     </div>
