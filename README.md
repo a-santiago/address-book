@@ -1,2 +1,2 @@
-# address-book
+# Address Book
 Simple Address Book
